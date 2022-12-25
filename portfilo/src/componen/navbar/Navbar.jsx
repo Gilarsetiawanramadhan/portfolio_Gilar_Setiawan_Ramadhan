@@ -12,8 +12,8 @@ const NavbarList =() => {
                 <Nav className="me-auto">
                     <Nav.Link href="/home" style={{color:"white", fontSize:"1rem"}}>HOME</Nav.Link>
                     <Nav.Link href="/About" style={{color:"white", fontSize:"1rem"}}>ABOUT</Nav.Link>
-                    <Nav.Link href='#' style={{color:"white", fontSize:"1rem"}}>MINI PROJECT</Nav.Link>
-                    <Nav.Link href='#' style={{color:"white", fontSize:"1rem"}}>MY SKILLS</Nav.Link>
+                    <Nav.Link href='/Minpro' style={{color:"white", fontSize:"1rem"}}>MINI PROJECT</Nav.Link>
+                    <Nav.Link href='/Skill' style={{color:"white", fontSize:"1rem"}}>MY SKILLS</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

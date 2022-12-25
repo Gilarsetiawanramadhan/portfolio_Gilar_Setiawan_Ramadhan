@@ -15,17 +15,16 @@ const Home = () => {
                         halo semua, saya Gilar
                     </div>
                     <Row>
-                        <Col xs ms="6">
+                        <Col xs ms="6" >
                             <h1 className='des'> saya merupakan forntend
-                                    <br/>
-                                web developer junior.
+                                        <br/>
+                                    web developer junior.
                             </h1>
                             <a href='./About'>
                                 <div className='right'>
-                                <div className='planet'>
-                                        </div>
+                                <div className='planet'></div>
                                     <span className='about'>
-                                        <h3 style={{color:"tomato", opacity:"none"}}>About</h3>
+                                        <h3 style={{color:"black",}}>About</h3>
                                     </span>
                                 </div>
                             </a>
