@@ -1,15 +1,13 @@
 import "./about.css"
 import React from "react";
 import NavbarList from "../../componen/navbar/Navbar";
-import foto from "../../componen/foto/planet jupiter.png"
-import { Container, Image } from "react-bootstrap";
+// import foto from "../../componen/foto/planet jupiter.png"
 const About = ()=>{
     return(
         <>
-        <NavbarList/>
-        <Container>
-            <div className="wraper">
-                <Image className="jupiter" src={foto} alt="planet jupiter"/>
+            <header>
+            <div className="myself">
+                <NavbarList/>
                 <dl className="me">
                     <dt className="my">MY SELF</dt>
                     <dd>I am a front end web developer located in Semarang, Central Java, Indonesia. 
@@ -20,7 +18,7 @@ const About = ()=>{
                     </dd>
                 </dl>
             </div>
-        </Container>
+            </header>
         </>
     )
 }
