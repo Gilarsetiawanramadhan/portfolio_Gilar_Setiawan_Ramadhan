@@ -10,13 +10,9 @@ header{
 .home{
     display: block;
     position: relative;
-    top: 15px;
-    padding: 10px;
+    top: 150px;
+    padding: 0;
     margin-left: 20px;
-}
-
-.JP{
-    width: 500px;
 }
 
 .name{
@@ -36,32 +32,7 @@ header{
     font-size: 50px;
 }
 
-.planet{
-    background-color: aliceblue;
-    width: 25vw;
-    height: 17vh;
-    border-radius: 200px;
-    position: absolute;
-    bottom: -9px;
-    opacity: 10%;
-    border: 3px solid rgb(252, 11, 11);
-}
 
-.right{
-    position: absolute;
-    right: 500px;
-    background-color: rgb(219, 113, 14);
-    font-size: 20px;
-    height: 14vh;
-    width: 21vw;
-    border-radius: 200px;
-}
-
-.about{
-    background-color: aliceblue;
-    width:20vw ;
-    margin-left: 40px;
-}
 /* seluler responsiv */
 @media screen and (max-width:360px) {
     .home{
@@ -72,65 +43,5 @@ header{
     }
     .des{
         font-size:10vw;
-    }
-
-    .planet{
-        width: 40vw;
-        top: 0;
-    }
-
-    .right{
-        position: absolute;
-        left: 10px;
-        width: 100px;
-        height: 100px;
-    }
-}
-
-@media screen and (min-width:640px) {
-    .planet{
-        width: 19vw;
-        height: 14vh;
-        bottom: -10px;
-    }
-
-
-    .right{
-        position: absolute;
-        /* left: 10px; */
-        width: 100px;
-        height: 100px;
-        bottom: -100px;
-    }
-}
-
-/* tablet responsif */
-
-@media screen and (min-width:601px) {
-
-    .planet{
-        width: 100px;
-        height: 100px;
-        bottom: 5px;
-        left: 2px;
-    }
-
-    .right{
-        position: absolute;
-        width: 100px;
-        height: 100px;
-        bottom: -100px;
-    }
-}
-
-@media screen and (max-width:962px) {
-    .planet{
-        width: 18vw;
-        height: 11vh;
-    }
-    .right{
-        position: absolute;
-        width: 80px;
-        height: 80px;
     }
 }

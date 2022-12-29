@@ -30,9 +30,9 @@ const MinPro = () => {
               <Card style={{ width: "18rem" }}>
                 <Card.Img variant="top" src={Nakama} />
                 <Card.Body>
-                  <Card.Title>the movie DB</Card.Title>
-                  <p>this is a project i created using api from the movei db</p>
-                  <a href="https://github.com/Gilarsetiawanramadhan/mini_projek_2_vilm">
+                  <Card.Title>NAKAMA</Card.Title>
+                  <p>in this project I use bootstrap, html, and css.</p>
+                  <a href="https://github.com/Gilarsetiawanramadhan/NAKAMA.WE.git">
                     open link
                   </a>
                 </Card.Body>
